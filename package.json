@@ -1,0 +1,29 @@
+{
+  "name": "black_canary",
+  "version": "1.0.0",
+  "description": "Demo Codebase for the research study - **Helping or Hindering? How Browser Extensions Undermine Security?** under submission. *** ## Components The pipeline consists of three major stages of analysis:  - Pre-filtering, URL extraction & instrumentation of browser extensions.  - Dynamic analysis of instrumented extensions & header interception.  - Comparitive analysis between original and extension-procesed headers. ***",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubh401/black_canary.git"
+  },
+  "author": "Shubham Agarwal",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/shubh401/black_canary/issues"
+  },
+  "homepage": "https://github.com/shubh401/black_canary#readme",
+  "devDependencies": {
+    "acorn": "^8.8.0",
+    "acorn-loose": "^8.3.0",
+    "acorn-walk": "^8.2.0",
+    "chalk": "^4.0.0",
+    "content-security-policy-parser": "^0.4.1",
+    "csp-dev": "^1.0.2",
+    "escodegen": "^2.0.0",
+    "puppeteer": "^18.0.5",
+    "unzip-crx-3": "^0.2.0",
+    "web-ext": "^7.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
