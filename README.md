@@ -36,7 +36,7 @@ The project root directory is also the working directory where all the analysis 
 **Optional:** After connecting to the shell, one may need to restart the ``PostgreSQL`` service by executing the following command:
 
 ``` console
-    $ /etc/init.d/PostgreSQL restart
+    $ /etc/init.d/postgresql restart
 ```
 ***
 
